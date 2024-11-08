@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('https://raw.')
+fetch('https://raw.githubusercontent.com/OMurM/2DAM-M7-UF1-PAC-05/main/data.xml')
       .then(response => response.text())
       .then(data => {
         const parser = new DOMParser();
