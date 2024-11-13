@@ -1,33 +1,83 @@
 body {
-    font-family: sans-serif;
-  }
-  
-  #menu {
-    width: 80%;
-    margin: auto;
-  }
-  
-  .GRUP {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  .PLAT {
-    padding: 5px 0;
-  }
-  
-  .NOM {
-    font-weight: bold;
-  }
-  
-  .DESCRIPCIO {
-    font-style: italic;
-    color: #555;
-  }
-  
-  .PREU {
-    font-weight: bold;
-    color: #333;
-  }
-  
+  font-family: sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  width: 80%;
+  margin: auto;
+}
+
+.GRUP {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.PLAT {
+  padding: 5px 0;
+}
+
+.NOM {
+  font-weight: bold;
+}
+
+.DESCRIPCIO {
+  font-style: italic;
+  color: #555;
+}
+
+.PREU {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  border-top: 2px solid #007bff;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+  color: #333;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+/* Centrado general de la página */
+body, html {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px 0;
+}
